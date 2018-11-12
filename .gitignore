@@ -1,12 +1,39 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+# cally *NIX text editors, by default, append '~' to files on saving to make backups
+*~
 
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
+# Build output directies
+target/
+build/
+lib/
+classes/
+MANIFEST.MF
+
+# IntelliJ specific files/directories
+out/
+.idea/
+*.ipr
+*.iws
+*.iml
+atlassian-ide-plugin.xml
+
+# Eclipse specific files/directories
+.classpath
+.project
+.settings/
+.metadata/
+bin/
+
+# NetBeans specific files/directories
+.nbattrs
+
+# Miscellaneous
+*.log
+*.swp
+.clover
+.DS_Store
+
+# Profiler and heap dumps
+*.jps
+*.hprof
+.nb-gradle/
+
